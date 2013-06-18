@@ -1,7 +1,13 @@
-Rake::Task['assets:precompile:primary'].enhance do
-  assets = File.expand_path(File.dirname(__FILE__) + "/../../vendor/assets/javascripts/tinymce")
-  target = File.join(Rails.public_path, Rails.application.config.assets.prefix)
+assets_task = Rake::Task.task_defined?('assets:precompile:primary') ? 'assets:precompile:primary' : 'assets:precompile'
 
-  mkdir_p target
-  cp_r assets, target
+Rake::Task[assets_task].enhance do
+  require "tinymce/rails/asset_installer"
+
+  assets = Pathname.new(File.expand_path(File.dirname(__FILE__) + "/../../vendor/assets/javascripts/tinymce"))
+
+  config   = Rails.application.config
+  target   = File.join(Rails.public_path, config.assets.prefix)
+  manifest = config.assets.manifest
+
+  TinyMCE::Rails::AssetInstaller.new(assets, target, manifest).install
 end
