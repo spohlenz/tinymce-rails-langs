@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.files = Dir["README.md", "LICENSE", "lib/**/*", "vendor/**/*"]
   s.authors = ["Sam Pohlenz"]
   s.email = "sam@sampohlenz.com"
+  s.homepage = "https://github.com/spohlenz/tinymce-rails-langs"
   
   s.add_dependency "tinymce-rails", "~> 4.0"
 end
