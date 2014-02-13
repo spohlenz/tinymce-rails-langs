@@ -82,7 +82,7 @@ tinymce.addI18n('da',{
 "Image description": "Billede beskrivelse",
 "Style": "Stil",
 "Dimensions": "Dimensioner",
-"Insert image": "Ids\u00e6t billede",
+"Insert image": "Inds\u00e6t billede",
 "Insert date\/time": "Inds\u00e6t dato\/klokkeslet",
 "Remove link": "Fjern link",
 "Url": "Url",
