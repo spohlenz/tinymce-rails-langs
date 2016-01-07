@@ -9,5 +9,7 @@ Rake::Task[assets_task].enhance do
   target   = File.join(Rails.public_path, config.assets.prefix)
   manifest = config.assets.manifest
 
-  TinyMCE::Rails::AssetInstaller.new(assets, target, manifest).install
+  installer = TinyMCE::Rails::AssetInstaller.new(assets, target, manifest)
+  installer.strategy = config.tinymce.install
+  installer.install
 end
