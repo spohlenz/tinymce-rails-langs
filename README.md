@@ -3,7 +3,7 @@ Language Packs for tinymce-rails
 
 The `tinymce-rails-langs` gem adds language packs for [TinyMCE](http://www.tinymce.com/) (with [tinymce-rails](https://github.com/spohlenz/tinymce-rails)).
 
-The gem currently includes all language packs available from http://www.tinymce.com/i18n/index.php?ctrl=lang&act=download&pr_id=1, some of which may be incomplete.
+The gem currently includes all language packs available from https://www.tinymce.com/download/language-packages/, some of which may be incomplete.
 
 
 Instructions
