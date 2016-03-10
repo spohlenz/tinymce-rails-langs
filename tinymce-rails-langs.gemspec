@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.email = "sam@sampohlenz.com"
   s.homepage = "https://github.com/spohlenz/tinymce-rails-langs"
   
-  s.add_dependency "tinymce-rails", "~> 4.0"
+  s.add_dependency "tinymce-rails", "~> 4.1", ">= 4.1.10"
 end
