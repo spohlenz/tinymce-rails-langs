@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "tinymce-rails-langs"
-  s.version = "6.20220429"
+  s.version = "6.20230529"
   s.summary = "Additional language packs for tinymce-rails."
   s.files = Dir["README.md", "LICENSE", "lib/**/*", "vendor/**/*"]
   s.authors = ["Sam Pohlenz"]
