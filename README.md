@@ -5,6 +5,9 @@ The `tinymce-rails-langs` gem adds language packs for [TinyMCE](http://www.tinym
 
 The gem currently includes all language packs available from https://www.tiny.cloud/get-tiny/language-packages/, some of which may be incomplete.
 
+> [!IMPORTANT]
+> Please note that as of version 7, TinyMCE (and therefore this project) is now licensed under the GPL.
+
 
 Instructions
 ------------
