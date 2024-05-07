@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "tinymce-rails-langs"
-  s.version = "6.20230529"
+  s.version = "7.20240507"
   s.summary = "Additional language packs for tinymce-rails."
   s.files = Dir["README.md", "LICENSE", "lib/**/*", "vendor/**/*"]
   s.authors = ["Sam Pohlenz"]
@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/spohlenz/tinymce-rails-langs"
   s.license = "MIT"
 
-  s.add_dependency "tinymce-rails", "~> 6.0"
+  s.add_dependency "tinymce-rails", "~> 7.0"
 end
